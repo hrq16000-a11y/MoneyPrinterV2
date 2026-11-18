@@ -39,3 +39,13 @@
 ## Security & Configuration Tips
 - Treat `config.json` as environment-specific; do not commit real API keys or private profile paths.
 - Start from `config.example.json` and prefer environment variables where supported (for example `GEMINI_API_KEY`).
+
+## Referências externas para design e interação (17/11/2026)
+
+- TasteSkill (https://www.tasteskill.dev/): método de revisão de direção visual, tipografia, espaçamento e composição autoral, nunca template a copiar.
+- Transitions.dev (https://transitions.dev/): fonte de microinterações CSS quando houver interface web; `prefers-reduced-motion`, teclado, foco e contraste obrigatórios.
+- React Bits (https://reactbits.dev/): NÃO APLICÁVEL ao CLI Python; só reavaliar caso seja criada uma interface React.
+- RiseClub (https://riseclub.tech/): observar organização de aprendizagem/comunidade e conteúdo editorial; jamais copiar conteúdo, interface, marcas ou dados.
+- Escopo local: Projeto Python/CLI de geração de mídia: preservar fluxos dos provedores e configurações; React Bits não se aplica ao núcleo Python. Para futura UI web, avaliar separadamente licenças, performance e acessibilidade.
+- Adoção apenas quando resolver necessidade real: branch/PR pequeno, verificação responsiva 390/1440 (para web), motion reduzido, sem mudanças em banco, DNS, credenciais, funis ou produção decorrentes deste documento.
+- Não executar instaladores/skills/scripts externos automaticamente. Preservar instruções mais específicas, licenças e testes do projeto.
